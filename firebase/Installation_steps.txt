@@ -1,0 +1,23 @@
+--------------------------Firebase--------------------------------
+
+Steps to be followed:
+
+	1) Install Firebase in Raspberry Pi
+		i)  sudo pip install requests==1.1.0
+		ii) sudo pip install python-firebase   //if pip fails try pip3 or use easy_install
+
+	2) Install DHT Python Library
+		i)  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+		ii) cd Adafruit_Python_DHT
+		iii) sudo apt-get install build-essential python-dev python-openssl
+		iv) sudo python setup.py install
+
+if any problem with those installation please run the following commands first
+
+		i)sudo apt-get update
+		ii)sudo apt-get upgrade 
+
+if any problem with python-pirebase
+
+	1) sudo apt-get remove python-pip
+	2) sudo easy_install pip
